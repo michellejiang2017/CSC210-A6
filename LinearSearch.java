@@ -34,13 +34,10 @@ public class LinearSearch {
     // If you are recording the search visually, take one snapshot
     // per comparison so the viewer shows the search progression.
     // ***********************************************************
-
-    if (record != null) { 
-      record.add(cards);
-    }
     for (Card card : cards) {
       if (record != null) { 
         record.next(); 
+        record.add(cards);
       }
         if (card.compareTo(target) == 0) {
           return true;
