@@ -1,6 +1,12 @@
 import java.util.ArrayDeque;
 import java.util.Collections;
 
+/**
+ * Filename: MergeSort
+ * Author: Michelle Jiang 
+ * Date: 2026-03-24
+ * Program demonstrates a merge sort with a pile of cards. 
+ */
 public class MergeSort {
   /**
    * Sorts the given pile of cards using Merge Sort
@@ -56,6 +62,12 @@ public class MergeSort {
     return queue.remove();
   }
 
+  /**
+   * Merges two sorted lists together 
+   * @param first the first list to be merged
+   * @param second the second list to be merged
+   * @return the sorted list composed of both lists 
+   */
   public static CardPile mergeLists(CardPile first, CardPile second) { 
     CardPile merged = new CardPile(); 
     while (first.size() > 0 && second.size() > 0 ) { 

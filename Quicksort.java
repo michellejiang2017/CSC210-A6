@@ -1,3 +1,9 @@
+/**
+ * Filename: QuickSort
+ * Author: Michelle Jiang 
+ * Date: 2026-03-24
+ * Program demonstrates a quick sort with a pile of cards. 
+ */
 public class Quicksort {
   
   /**

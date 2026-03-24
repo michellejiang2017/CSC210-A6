@@ -1,7 +1,10 @@
 import java.util.Collections;
 
 /**
- * Program sorts cards using Selection Sort, and demonstrates use of a recorder.
+ * Filename: SelectionSort
+ * Author: Michelle Jiang 
+ * Date: 2026-03-24
+ * Program demonstrates a selection sort with a pile of cards. 
  */
 public class SelectionSort {
   

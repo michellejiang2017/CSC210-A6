@@ -1,6 +1,12 @@
 import java.util.Collections;
 import java.util.ListIterator;
 
+/**
+ * Filename: InsertionSort
+ * Author: Michelle Jiang 
+ * Date: 2026-03-24
+ * Program demonstrates an insertion sort with a pile of cards. 
+ */
 public class InsertionSort {
   
    /**
