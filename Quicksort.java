@@ -1,5 +1,11 @@
 public class Quicksort {
   
+  /**
+   * Sorts the given pile of cards using Quick Sort, and uses the given recorder to record the steps of the algorithm.
+   * @param unsorted the pile of cards to sort
+   * @param record the recorder to use to record the steps of the algorithm; if null, no recording will be done
+   * @return a new pile of cards containing the same cards as unsorted, but in sorted order
+   */
   public static CardPile sort(CardPile unsorted, SortRecorder record) {
 
     // ***********************************************************
