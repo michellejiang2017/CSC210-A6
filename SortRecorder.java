@@ -44,7 +44,8 @@ public class SortRecorder extends JComponent implements ChangeListener {
     index = 0;
   }
 
-  /** Adds a pile to the current record
+  /**
+   * Adds a pile to the current record
    * @param pile the card pile to add
    */
   public void add(CardPile pile) {
@@ -60,17 +61,19 @@ public class SortRecorder extends JComponent implements ChangeListener {
     }
   }
 
-  /** Adds a card in a newly created singleton pile 
+  /**
+   * Adds a card in a newly created singleton pile 
    * @param c the card to add
-  */
+   */
   public void add(Card c) {
     CardPile pile = new CardPile(2,2);
     pile.add(c);
     add(pile);
   }
 
-  /** Adds an array to the current record 
-   * @param cards the list of cards to add
+ /**
+  * Adds an array to the current record 
+  * @param cards the list of cards to add
   */
   public void add(Card[] cards) {
     LinkedList<CardPile> piles = record.removeLast();
@@ -89,9 +92,10 @@ public class SortRecorder extends JComponent implements ChangeListener {
     offset = 0;
   }
 
-  /** Creates a window to put the display into 
+  /**
+   * Creates a window to put the display into 
    * @param title the title of the display window
-  */
+   */
   public void display(String title) {
     finalizeRecord();
     saveContactSheet(title);
